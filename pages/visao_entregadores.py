@@ -10,7 +10,7 @@ from streamlit_folium import folium_static
 
 
 #Importação do arquivo
-df_raw = pd.read_csv('dataset/train.csv')
+df_raw = pd.read_csv('../dataset/train.csv')
 
 
 
@@ -66,7 +66,7 @@ df['Time_taken(min)'] = df['Time_taken(min)'].astype( 'int64' )
 import streamlit as st
 st.header('Marketplace - Visão Entregadores')
 
-image_path = 'logo3.png'
+image_path = '../logo3.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width=220)
 

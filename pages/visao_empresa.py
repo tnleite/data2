@@ -10,7 +10,7 @@ from streamlit_folium import folium_static
 
 
 #Importação do arquivo
-df_raw = pd.read_csv('dataset/train.csv')
+df_raw = pd.read_csv('../dataset/train.csv')
 
 
 
@@ -73,7 +73,7 @@ px.bar(df_auxiliar, x='Order_Date', y='ID')
 import streamlit as st
 st.header('Marketplace - Visão Cliente')
 
-image_path = 'logo3.png'
+image_path = '../logo3.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width=220)
 
