@@ -76,7 +76,7 @@ st.sidebar.markdown('## Fastest Delivery in Town')
 st.sidebar.markdown("""---""")
 
 st.sidebar.markdown('## Selecione uma data limite :calendar:')
-data_slider = st.sidebar.slider('Até qual valor?', value=pd.datetime(2022,4,13),min_value=pd.datetime(2022,2,11), max_value=pd.datetime(2022,4,6), format='DD-MM-YYY')
+data_slider = st.sidebar.slider('Até qual valor?', value=pd.datetime(2022,4,13),min_value=pd.datetime(2022,2,11), max_value=pd.datetime(2022,4,6), format='DD/MM/YYYY')
 st.sidebar.markdown("""---""")
 
 traffic_options = st.sidebar.multiselect(
