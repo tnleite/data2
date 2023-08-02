@@ -25,6 +25,6 @@ st.markdown(
     - Visão Restaurante:
         - Indicadores semanais do crescimento dos restaurantes.
     ### Ask for Help
-    - Time de Data Science no Discord
+    - Time de Data Analytics no Discord
         - @thiagoleite_
     ''')
