@@ -6,8 +6,9 @@ import plotly.express as px
 from PIL import Image
 import folium
 from streamlit_folium import folium_static
+import streamlit as st
 
-
+st.set_page_config(page_title="Visão Restaurantes", page_icon="🍽️", layout="wide")
 
 #Importação do arquivo
 df_raw = pd.read_csv('dataset/train.csv')
@@ -63,7 +64,7 @@ df['Time_taken(min)'] = df['Time_taken(min)'].astype( 'int64' )
 #==============================
 # Barra lateral no Streamlit
 #==============================
-import streamlit as st
+
 st.header('Marketplace - Visão Entregadores')
 
 image_path = 'logo3.png'
