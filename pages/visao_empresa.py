@@ -10,7 +10,7 @@ from streamlit_folium import folium_static
 
 
 #Importação do arquivo
-df_raw = pd.read_csv('dataset/train.csv')
+df_raw = pd.read_csv('../dataset/train.csv')
 
 
 
