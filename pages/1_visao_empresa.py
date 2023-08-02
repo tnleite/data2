@@ -6,6 +6,7 @@ import plotly.express as px
 from PIL import Image
 import folium
 from streamlit_folium import folium_static
+import streamlit as st
 
 
 st.set_page_config(page_title="Visão Empresa", page_icon="🏢", layout="wide")
@@ -71,7 +72,6 @@ px.bar(df_auxiliar, x='Order_Date', y='ID')
 #==============================
 # Barra lateral no Streamlit
 #==============================
-import streamlit as st
 st.header('Marketplace - Visão Cliente')
 
 image_path = 'logo3.png'
