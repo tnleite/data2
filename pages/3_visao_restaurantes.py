@@ -8,7 +8,9 @@ import folium
 from streamlit_folium import folium_static
 from haversine import haversine
 import plotly.graph_objects as go
+import streamlit as st
 
+st.set_page_config(page_title="Visão Restaurantes", page_icon="🍽️", layout="wide")
 
 #Importação do arquivo
 df_raw = pd.read_csv('dataset/train.csv')
