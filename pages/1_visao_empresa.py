@@ -73,7 +73,7 @@ px.bar(df_auxiliar, x='Order_Date', y='ID')
 #==============================
 # Barra lateral no Streamlit
 #==============================
-st.header('Marketplace - Visão Cliente')
+st.header('Marketplace - Visão Empresa')
 
 image_path = 'logo3.png'
 image = Image.open(image_path)
