@@ -3,7 +3,7 @@ from PIL import Image
 
 st.set_page_config(page_title="Home", page_icon="📈")
 
-image = Image.open('logo.png')
+image = Image.open('logo3.png')
 st.sidebar.image(image, width=180)
 
 st.sidebar.markdown('# Curry Company')
